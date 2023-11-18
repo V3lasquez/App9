@@ -10,7 +10,7 @@
         <Grid Padding="20">
             <local:PinchToZoomContainer>
                 <local:PinchToZoomContainer>
-                    <Image Source="tapped.jpg"></Image>
+                    <Image Source="gengar.jpg"></Image>
                 </local:PinchToZoomContainer>
             </local:PinchToZoomContainer>
         </Grid>

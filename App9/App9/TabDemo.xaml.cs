@@ -20,7 +20,7 @@ namespace App9
 
             var image = new Image
             {
-                Source = "tapped.jpg",
+                Source = "onepiece_red.jpg",
                 HorizontalOptions = LayoutOptions.Center,
                 VerticalOptions = LayoutOptions.CenterAndExpand
             };
@@ -51,11 +51,11 @@ namespace App9
             var imageSender = (Image)sender;
             if (tapCount % 2 == 0)
             {
-                imageSender.Source = "primero.jpg";
+                imageSender.Source = "onepiece_red.jpg";
             }
             else
             {
-                imageSender.Source = "segundo.jpg";
+                imageSender.Source = "gengar.jpg";
             }
         }
     }
