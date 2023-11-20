@@ -9,7 +9,7 @@
     <ContentPage.Content>
         <AbsoluteLayout>
             <local:PanContainer>
-                <Image Source="dota2.jpg" WidthRequest="1024" HeightRequest="768"/>
+                <Image Source="drawable/dota2.jpg" WidthRequest="1024" HeightRequest="768"/>
             </local:PanContainer>
         </AbsoluteLayout>
     </ContentPage.Content>

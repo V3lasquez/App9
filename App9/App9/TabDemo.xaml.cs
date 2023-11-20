@@ -20,7 +20,7 @@ namespace App9
 
             var image = new Image
             {
-                Source = "onepiece_red.jpg",
+                Source = "drawable/dota2.png",
                 HorizontalOptions = LayoutOptions.Center,
                 VerticalOptions = LayoutOptions.CenterAndExpand
             };
@@ -51,11 +51,11 @@ namespace App9
             var imageSender = (Image)sender;
             if (tapCount % 2 == 0)
             {
-                imageSender.Source = "onepiece_red.jpg";
+                imageSender.Source = "dota2.png";
             }
             else
             {
-                imageSender.Source = "gengar.jpg";
+                imageSender.Source = "gengar.png";
             }
         }
     }
